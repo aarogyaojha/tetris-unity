@@ -1,0 +1,87 @@
+# Unity generated folders
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Assets]/AddressableAssetsData/*/*.bin*
+
+# Unity-generated files
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.vscode
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+
+# Cache
+/[Cc]ache/
+/[Cc]rashes/
+/[Dd]ebugLogs/
+
+# Unity plugin files
+*.pidb
+*.symbols.zip
+
+# Rider project files
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# VS Code
+.vscode/
+
+# Visual Studio
+.vs/
+*.user
+*.csproj.user
+
+# Auto-generated Lighting Data
+[Ll]ight[Mm]aps-*
+[Ll]ighting[Dd]ata.asset
+ReflectionProbe-*
+
+# Builds
+*.apk
+*.aab
+*.exe
+*.app
+*.ipa
+*.dll
+*.dmg
+*.bundle
+*.zip
+*.tar.gz
+*.rar
+
+# Unity Asset Store tools
+[Assets]/AssetStoreTools*
+
+# Exclude logs and crash dumps
+*.log
+*.stacktrace
+
+# Local configurations
+*.userprefs
+*.resharper
+
+# Ignore Play Mode State
+ProjectSettings/EditorBuildSettings.asset
+
+# Ignore JetBrains Rider's workspace folder
+.idea/
+
+# Ignore generated shader cache
+/[Ss]hader[Cc]ache/
+
+# Ignore ProBuilder AutoSave
+[Assets]/ProBuilderData/AutoSave/
