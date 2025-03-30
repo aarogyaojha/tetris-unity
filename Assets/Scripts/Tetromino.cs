@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.Tilemaps;
 
-public enum Tetromino 
+public enum Tetromino
 {
     I,
     O,
@@ -12,9 +12,15 @@ public enum Tetromino
     Z,
 }
 
+[System.Serializable]
 public struct TetrominoData
 {
     public Tetromino tetromino;
     public Tile tile;
+    public Vector2Int[] cells { get; private set; }
 
+    public void Initialie()
+    {
+        this.cells = Data.Cells[this.tetromino];
+    }
 }
